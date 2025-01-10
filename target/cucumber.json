@@ -1,0 +1,183 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-10T00:58:12.283Z",
+        "line": 5,
+        "name": "as a user , can create new data",
+        "description": "",
+        "id": "create-new-data-with-post-function;as-a-user---can-create-new-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 334053100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create request and add test data in json",
+            "match": {
+              "location": "Stepdef.create_request_and_add_test_data_in_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1204974100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send data with post method with post URL and get response",
+            "match": {
+              "location": "Stepdef.send_data_with_post_method_with_post_URL_and_get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1750900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check status two hundred",
+            "match": {
+              "location": "Stepdef.check_status_two_hundred()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 632700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check response time below two thousand",
+            "match": {
+              "location": "Stepdef.check_response_time_below_two_thousand()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check response header contain-type is application json",
+            "match": {
+              "location": "Stepdef.check_response_header_contain_type_is_application_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "response body should not null",
+            "match": {
+              "location": "Stepdef.response_body_should_not_null()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check response body contain key Name",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_key_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check response body contain key Salary",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_key_Salary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366435500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "check response body contain value Sarower",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_value_Sarower()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9065300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "check response body contain value five thousand",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_value_five_thousand()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Create new data with post function",
+    "description": "",
+    "id": "create-new-data-with-post-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Create.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
