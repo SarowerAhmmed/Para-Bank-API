@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.515" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.123" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\sarow\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\sarow\AppData\Local\Temp\surefire13983328694065693590\surefirebooter-20250109195810431_3.jar C:\Users\sarow\AppData\Local\Temp\surefire13983328694065693590 2025-01-09T19-58-09_740-jvmRun1 surefire-20250109195810431_1tmp surefire_0-20250109195810431_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sarow\AppData\Local\Temp\surefire854903299648579099\surefirebooter-20250109210228076_3.jar C:\Users\sarow\AppData\Local\Temp\surefire854903299648579099 2025-01-09T21-02-27_749-jvmRun1 surefire-20250109210228076_1tmp surefire_0-20250109210228076_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sarow\eclipse-workspace\Batch41\parabank-api-automation\target\test-classes;C:\Users\sarow\eclipse-workspace\Batch41\parabank-api-automation\target\classes;C:\Users\sarow\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\sarow\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sarow\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\sarow\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\sarow\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\sarow\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\sarow\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sarow\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\sarow\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\sarow\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\sarow\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sarow\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sarow\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sarow\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\sarow\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\sarow\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\sarow\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\sarow\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\sarow\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\sarow\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\sarow\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\sarow\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\sarow\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\sarow\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sarow\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sarow\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sarow\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sarow\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sarow\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sarow\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\sarow\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\sarow\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\sarow\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\sarow\.m2\repository\io\cucumber\cucumber-testng\4.7.1\cucumber-testng-4.7.1.jar;C:\Users\sarow\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sarow\.m2\repository\io\cucumber\cucumber-core\4.7.1\cucumber-core-4.7.1.jar;C:\Users\sarow\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\sarow\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\sarow\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\sarow\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\sarow\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\sarow\.m2\repository\io\cucumber\cucumber-picocontainer\4.7.1\cucumber-picocontainer-4.7.1.jar;C:\Users\sarow\.m2\repository\io\cucumber\cucumber-java\4.7.1\cucumber-java-4.7.1.jar;C:\Users\sarow\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\sarow\.m2\repository\net\masterthought\cucumber-reporting\4.7.0\cucumber-reporting-4.7.0.jar;C:\Users\sarow\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\sarow\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\sarow\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\sarow\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\sarow\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\sarow\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\sarow\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\sarow\.m2\repository\joda-time\joda-time\2.10.1\joda-time-2.10.1.jar;C:\Users\sarow\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\sarow\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sarow\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.1\plexus-utils-3.1.1.jar;C:\Users\sarow\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\sarow\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190325.1\owasp-java-html-sanitizer-20190325.1.jar;C:\Users\sarow\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\sarow\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sarow\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sarow\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sarow\AppData\Local\Temp\surefire13983328694065693590\surefirebooter-20250109195810431_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sarow\AppData\Local\Temp\surefire854903299648579099\surefirebooter-20250109210228076_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23+37"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="runScenario[&quot;as a user , can create new data&quot;, &quot;Create new data with post function&quot;](1)" classname="com.test.run.Runner" time="2.058">
+  <testcase name="runScenario[&quot;as a user , can create new data&quot;, &quot;Create new data with post function&quot;](1)" classname="com.test.run.Runner" time="3">
     <system-out><![CDATA[{
     "args": {
         
@@ -79,7 +79,7 @@
         "Content-Type": "application/json",
         "Host": "httpbin.org",
         "User-Agent": "Apache-HttpClient/4.5.13 (Java/23)",
-        "X-Amzn-Trace-Id": "Root=1-678070a5-52afa8226a0e44a874ac2949"
+        "X-Amzn-Trace-Id": "Root=1-67807fb7-4e560b1f31b8a9c529eb26ea"
     },
     "json": {
         "Name": "Sarower",
@@ -89,8 +89,84 @@
     "url": "https://httpbin.org/post"
 }
 ]]></system-out>
-    <system-err><![CDATA[Jan 09, 2025 7:58:12 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+    <system-err><![CDATA[Jan 09, 2025 9:02:29 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
 INFO: Loading ObjectFactory via service loader: io.cucumber.picocontainer.PicoFactory
 ]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;as a user , can delete  data&quot;, &quot;Create new data with delete function&quot;](2)" classname="com.test.run.Runner" time="0.216">
+    <failure message="Cannot invoke &quot;org.testng.asserts.SoftAssert.assertAll()&quot; because &quot;this.sa&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.testng.asserts.SoftAssert.assertAll()" because "this.sa" is null
+	at com.generic.Stepdef.send_data_with_get_method_with_delete_URL_and_delete_response(Stepdef.java:149)
+	at ✽.send data with get method with delete URL and delete response(file:src/main/resources/Delete.feature:7)
+]]></failure>
+    <system-out><![CDATA[{
+    "args": {
+        
+    },
+    "data": "",
+    "files": {
+        
+    },
+    "form": {
+        
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/23)",
+        "X-Amzn-Trace-Id": "Root=1-67807fb8-0b4540742d2458e451d79500"
+    },
+    "json": null,
+    "origin": "47.230.91.79",
+    "url": "https://httpbin.org/delete"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;as a user , can get  data&quot;, &quot;Create new data with get function&quot;](3)" classname="com.test.run.Runner" time="0.174">
+    <system-out><![CDATA[{
+    "args": {
+        
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/23)",
+        "X-Amzn-Trace-Id": "Root=1-67807fb8-6b7308ae3b0a27b52f52ed12"
+    },
+    "origin": "47.230.91.79",
+    "url": "https://httpbin.org/get"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;as a user , can Update old data&quot;, &quot;Update new data with put function&quot;](4)" classname="com.test.run.Runner" time="0.177">
+    <system-out><![CDATA[{
+    "args": {
+        
+    },
+    "data": "{\"Name\":\"Adam\",\"Salary\":10000}",
+    "files": {
+        
+    },
+    "form": {
+        
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Content-Length": "30",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/23)",
+        "X-Amzn-Trace-Id": "Root=1-67807fb8-104c90ec034da8ad6f2ff2de"
+    },
+    "json": {
+        "Name": "Adam",
+        "Salary": 10000
+    },
+    "origin": "47.230.91.79",
+    "url": "https://httpbin.org/put"
+}
+]]></system-out>
   </testcase>
 </testsuite>

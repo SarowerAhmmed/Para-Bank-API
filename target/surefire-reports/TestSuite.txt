@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.515 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.123 s <<< FAILURE! - in TestSuite
+com.test.run.Runner.runScenario["as a user , can delete  data", "Create new data with delete function"](2)  Time elapsed: 0.216 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.testng.asserts.SoftAssert.assertAll()" because "this.sa" is null
+	at com.generic.Stepdef.send_data_with_get_method_with_delete_URL_and_delete_response(Stepdef.java:149)
+	at ✽.send data with get method with delete URL and delete response(file:src/main/resources/Delete.feature:7)
+

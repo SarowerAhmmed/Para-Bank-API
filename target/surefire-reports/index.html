@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.run.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;as a user , can delete  data&quot;, &quot;Create new data with delete function&quot;)">runScenario("as a user , can delete  data", "Create new data with delete function")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +119,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.test.run.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;as a user , can create new data&quot;, &quot;Create new data with post function&quot;)">runScenario("as a user , can create new data", "Create new data with post function")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.run.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;as a user , can get  data&quot;, &quot;Create new data with get function&quot;)">runScenario("as a user , can get  data", "Create new data with get function")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.run.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;as a user , can Update old data&quot;, &quot;Update new data with put function&quot;)">runScenario("as a user , can Update old data", "Update new data with put function")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -119,6 +143,29 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.run.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;as a user , can delete  data&quot;, &quot;Create new data with delete function&quot;)">
+                  </a> <!-- runScenario("as a user , can delete  data", "Create new data with delete function") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("as a user , can delete  data", "Create new data with delete function")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.testng.asserts.SoftAssert.assertAll()&quot; because &quot;this.sa&quot; is null
+	at com.generic.Stepdef.send_data_with_get_method_with_delete_URL_and_delete_response(Stepdef.java:149)
+	at ✽.send data with get method with delete URL and delete response(file:src/main/resources/Delete.feature:7)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -131,6 +178,26 @@
                   </a> <!-- runScenario("as a user , can create new data", "Create new data with post function") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("as a user , can create new data", "Create new data with post function")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;as a user , can get  data&quot;, &quot;Create new data with get function&quot;)">
+                  </a> <!-- runScenario("as a user , can get  data", "Create new data with get function") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("as a user , can get  data", "Create new data with get function")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;as a user , can Update old data&quot;, &quot;Update new data with put function&quot;)">
+                  </a> <!-- runScenario("as a user , can Update old data", "Update new data with put function") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("as a user , can Update old data", "Update new data with put function")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -197,16 +264,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.test.run.Runner')
-data.setCell(0, 3, 2056);
+data.setCell(0, 3, 2999);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.test.run.Runner')
+data.setCell(1, 3, 210);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.test.run.Runner')
+data.setCell(2, 3, 177);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.test.run.Runner')
+data.setCell(3, 3, 174);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -239,11 +318,25 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("as a user , can create new data", "Create new data with post function")</span>
-                <span class="method-start">111 ms</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("as a user , can delete  data", "Create new data with delete function")</span>
+                <span class="method-start">3129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("as a user , can get  data", "Create new data with get function")</span>
+                <span class="method-start">3342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("as a user , can Update old data", "Update new data with put function")</span>
+                <span class="method-start">3517 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">2168 ms</span>
+                <span class="method-start">3695 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

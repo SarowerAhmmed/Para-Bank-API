@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2025-01-10T00:58:12.283Z",
+        "start_timestamp": "2025-01-10T02:02:29.085Z",
         "line": 5,
         "name": "as a user , can create new data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 334053100,
+              "duration": 344303200,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1204974100,
+              "duration": 2077368900,
               "status": "passed"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1750900,
+              "duration": 2584500,
               "status": "passed"
             },
             "line": 8,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 632700,
+              "duration": 667200,
               "status": "passed"
             },
             "line": 9,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 86800,
+              "duration": 101600,
               "status": "passed"
             },
             "line": 10,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 28100,
+              "duration": 32900,
               "status": "passed"
             },
             "line": 11,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 70800,
+              "duration": 76500,
               "status": "passed"
             },
             "line": 12,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 28000,
+              "duration": 30700,
               "status": "passed"
             },
             "line": 13,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 366435500,
+              "duration": 417296100,
               "status": "passed"
             },
             "line": 14,
@@ -121,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 9065300,
+              "duration": 8672500,
               "status": "passed"
             },
             "line": 15,
@@ -153,6 +153,466 @@
     "id": "create-new-data-with-post-function",
     "keyword": "Feature",
     "uri": "file:src/main/resources/Create.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-10T02:02:31.940Z",
+        "line": 5,
+        "name": "as a user , can delete  data",
+        "description": "",
+        "id": "create-new-data-with-delete-function;as-a-user---can-delete--data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create request and add test data in json",
+            "match": {
+              "location": "Stepdef.create_request_and_add_test_data_in_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.testng.asserts.SoftAssert.assertAll()\" because \"this.sa\" is null\r\n\tat com.generic.Stepdef.send_data_with_get_method_with_delete_URL_and_delete_response(Stepdef.java:149)\r\n\tat ✽.send data with get method with delete URL and delete response(file:src/main/resources/Delete.feature:7)\r\n",
+              "duration": 208943900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "send data with get method with delete URL and delete response",
+            "match": {
+              "location": "Stepdef.send_data_with_get_method_with_delete_URL_and_delete_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "check status two hundred",
+            "match": {
+              "location": "Stepdef.check_status_two_hundred()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "check response time below two thousand",
+            "match": {
+              "location": "Stepdef.check_response_time_below_two_thousand()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "check response header contain-type is application json",
+            "match": {
+              "location": "Stepdef.check_response_header_contain_type_is_application_json()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Create new data with delete function",
+    "description": "",
+    "id": "create-new-data-with-delete-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Delete.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-10T02:02:32.155Z",
+        "line": 5,
+        "name": "as a user , can get  data",
+        "description": "",
+        "id": "create-new-data-with-get-function;as-a-user---can-get--data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 398700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create request and add test data in json",
+            "match": {
+              "location": "Stepdef.create_request_and_add_test_data_in_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172526600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send data with get method with get URL and get response",
+            "match": {
+              "location": "Stepdef.send_data_with_get_method_with_get_URL_and_get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check status two hundred",
+            "match": {
+              "location": "Stepdef.check_status_two_hundred()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check response time below two thousand",
+            "match": {
+              "location": "Stepdef.check_response_time_below_two_thousand()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check response header contain-type is application json",
+            "match": {
+              "location": "Stepdef.check_response_header_contain_type_is_application_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "response body should not null",
+            "match": {
+              "location": "Stepdef.response_body_should_not_null()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check response body contain key url",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_key_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check response body contain key origin",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_key_origin()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Create new data with get function",
+    "description": "",
+    "id": "create-new-data-with-get-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/READ.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-10T02:02:32.328Z",
+        "line": 5,
+        "name": "as a user , can Update old data",
+        "description": "",
+        "id": "update-new-data-with-put-function;as-a-user---can-update-old-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create request and add test data in json",
+            "match": {
+              "location": "Stepdef.create_request_and_add_test_data_in_json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157281900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send data with put method with put URL and get response",
+            "match": {
+              "location": "Stepdef.send_data_with_put_method_with_put_URL_and_get_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check status two hundred",
+            "match": {
+              "location": "Stepdef.check_status_two_hundred()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check response time below two thousand",
+            "match": {
+              "location": "Stepdef.check_response_time_below_two_thousand()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check response header contain-type is application json",
+            "match": {
+              "location": "Stepdef.check_response_header_contain_type_is_application_json()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "response body should not null",
+            "match": {
+              "location": "Stepdef.response_body_should_not_null()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check response body contain key Name",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_key_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check response body contain key Salary",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_key_Salary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12769700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "check response body contain value Adam",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_value_Adam()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6356700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "check response body contain value ten thousand",
+            "match": {
+              "location": "Stepdef.check_response_body_contain_value_ten_thousand()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Functional"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Update new data with put function",
+    "description": "",
+    "id": "update-new-data-with-put-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Update.feature",
     "tags": [
       {
         "name": "@Smoke",

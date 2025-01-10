@@ -92,8 +92,61 @@ public class Stepdef {
 		sa.assertTrue(jp.get("json.Salary").toString().contains("5000"));
 		
 		
-		sa.assertAll();
+		
 	}
 
+	@When("send data with put method with put URL and get response")
+	public void send_data_with_put_method_with_put_URL_and_get_response() {
+		JsonObject jo = new JsonObject();
+		jo.addProperty("Name", "Adam");
+		jo.addProperty("Salary", 10000);
+		
+		rqs.body(jo.toString());
+		rqs.header("Content-Type", "application/json");
+		//response= below in postman
+		responseObj =rqs.put("https://httpbin.org/put");//send
+		responseObj.prettyPrint();
+	}
+
+	@Then("check response body contain value Adam")
+	public void check_response_body_contain_value_Adam() {
+		 jp =responseObj.jsonPath() ;
+		 sa.assertTrue(jp.get("json.Name").toString().contains("Adam"));
+	}
+
+	@Then("check response body contain value ten thousand")
+	public void check_response_body_contain_value_ten_thousand() {
+	   
+		sa.assertTrue(jp.get("json.Salary").toString().contains("10000"));
+		
+	}
+	@When("send data with get method with get URL and get response")
+	public void send_data_with_get_method_with_get_URL_and_get_response() {
+		
+		 responseObj = RestAssured.get("https://httpbin.org/get");
+		
+		responseObj.prettyPrint();
+	}
+
+	@Then("check response body contain key url")
+	public void check_response_body_contain_key_url() {
+		sa.assertTrue(responseObj.body().asString().contains("url"));
+	}
+
+	@Then("check response body contain key origin")
+	public void check_response_body_contain_key_origin() {
+	  
+		sa.assertTrue(responseObj.body().asString().contains("origin"));
+		
+		
+	}
+	@When("send data with get method with delete URL and delete response")
+	public void send_data_with_get_method_with_delete_URL_and_delete_response() {
+		 responseObj = RestAssured.delete("https://httpbin.org/delete");
+			
+			responseObj.prettyPrint();
+		
+		sa.assertAll();
+	}
 
 }
